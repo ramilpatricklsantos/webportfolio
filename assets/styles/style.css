@@ -1,0 +1,45 @@
+
+/*NAVIGATION*/
+#mainNav {
+  min-height: 56px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+#mainNav .navbar-brand {
+  color: #161616;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+#linkhover:hover {
+  color: #007bff;
+  outline: none;
+  background-color: transparent;
+  transform: scale(1.2);
+}
+
+
+/*HEADER*/
+.masterhead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../images/bg2.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.masterhead h1 {
+  font-family: 'Varela Round';
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 15px;
+  /*background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;*/
+}
