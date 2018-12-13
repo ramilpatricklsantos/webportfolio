@@ -1,120 +1,28 @@
-
-/*NAVIGATION*/
-#mainNav {
-  min-height: 56px;
-  background-color: #fff;
-  opacity: 0.5;
-}
-
-#mainNav .navbar-brand {
-  color: #161616;
-  font-weight: 700;
-  padding: 10px 0;
-}
-
-#linkhover:hover {
-  color: #dc3545;
-  outline: none;
-  background-color: transparent;
-  transform: scale(1.2);
-}
-
-
-/*HEADER*/
-.masterhead {
+.masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../images/bg2.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/bg2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-.masterhead h1 {
-  font-family: 'Varela Round';
-  font-size: 24px;
-  line-height: 24px;
-  letter-spacing: 15px;
-  /*background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;*/
-}
-
-.masterhead h2{
-  font-family: 'Varela Round';
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 5px;
-}
-.picture{
-  width: 150px;
-  height: 150px;
-  border: 1px solid grey;
-  border-radius:100px;
-  background-color: grey;
-  margin: auto;
-  transform: translate(0%,-20%);
-}
-
-/*PROJECT PAGE HEADER*/
-.project {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../images/bg1.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/bg1.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../images/random1.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/random3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.carousel-inner > .carousel-item > img{
-  width: 100%;
-  height: 500px; 
-}
-
-#carouselExampleIndicators{
-  transform: translate(10%, -30%);
-}
-.carousel1{
-  width: 900px;
-  height: 500px;
-}
-.carouselbox1{
-  width: 30%;
-  height: 200px;
-  border: 1px solid black;
-  transform: translate(50%, 80%);
-}
-.carouselbox2{
-  width: 30%;
-  height: 200px;
-  border: 1px solid black;
-  transform: translate(180%, -20%);
-}
-.carouselbox2>h1{
-   font-family: 'Varela Round';
-  font-size: 20px;
-  line-height: 170px;
-  text-align: center;
+h1{
+  background: white;
   font-weight: 1000;
-
+  transform: translate(0%, -100%);
 }
-.carouselbox2>a{
+h2{
+  transform: translate(0%, 600%);
+}
 
-font-family: 'Varela Round';
-font-size: 20px;
-line-height:inherit;
-white-space:nowrap
-font-weight: 700;
-text-align: center;
-margin: 20px 20px 20px 20px;
+.masterhead a{
+  transform: translate(0%, 200%);
+}
 
 }
